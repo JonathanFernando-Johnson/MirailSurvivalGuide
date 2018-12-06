@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class Login extends Component {
   render() {
-    return <div className="App">Là tu mets ton truc</div>;
+    return <div className="App">{this.props.value}</div>;
   }
 }
 
