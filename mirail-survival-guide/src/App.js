@@ -1,13 +1,17 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import Login from "./login";
+import MenuAppBar from "./MenuAppBar";
 import "./App.css";
+import { Nav, Navbar,NavItem,NavDropdown ,MenuItem } from 'react-bootstrap';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+  <MenuAppBar value='dgdgsd'/>
         <header className="App-header">
+
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
@@ -20,7 +24,8 @@ class App extends Component {
           >
             Learn React
           </a>
-          <Login />
+          <Login value='dgdgsd'/>
+
         </header>
       </div>
     );
