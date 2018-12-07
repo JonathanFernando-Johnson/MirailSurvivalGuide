@@ -7,7 +7,7 @@ import "./App.css";
 
 class App extends Component {
   render() {
-    switch (false) {
+    switch (true) {
       case true:
         return (
           <div>
