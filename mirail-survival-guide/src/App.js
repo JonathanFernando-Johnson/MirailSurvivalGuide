@@ -11,22 +11,13 @@ class App extends Component {
       <div className="App">
   <MenuAppBar value='dgdgsd'/>
         <header className="App-header">
-
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          <Login value='dgdgsd'/>
-
         </header>
+        <body>
+          <div id="cont_MzE1NTV8MXwyfDF8M3xGRkZGRkZ8MXxGRkZGRkZ8Y3wx">
+            <div id="spa_MzE1NTV8MXwyfDF8M3xGRkZGRkZ8MXxGRkZGRkZ8Y3wx"><a id="a_MzE1NTV8MXwyfDF8M3xGRkZGRkZ8MXxGRkZGRkZ8Y3wx"
+                    href="http://www.meteocity.com/france/toulouse_v31555/" target="_blank"> Météo</a></div>
+          </div>
+        </body>
       </div>
     );
   }
