@@ -4,6 +4,8 @@ import Login from "./login";
 import CheckList from "./check-list";
 import Register from "./register";
 import "./App.css";
+import MenuAppBar from "./MenuAppBar";
+import { Nav, Navbar,NavItem,NavDropdown ,MenuItem } from 'react-bootstrap';
 
 class App extends Component {
   render() {
@@ -11,6 +13,7 @@ class App extends Component {
       case true:
         return (
           <div>
+            <MenuAppBar/>
             <Register />
           </div>
         );
